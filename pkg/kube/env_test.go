@@ -141,6 +141,10 @@ func TestGetDevNamespace(t *testing.T) {
 	assert.Equal(t, testEnv, env)
 }
 
+func TestSomething(t *testing.T) {
+	// some code here
+}
+
 func TestCreateEnvironmentSurvey(t *testing.T) {
 	// namespace fixture
 	namespace := &v1.Namespace{
