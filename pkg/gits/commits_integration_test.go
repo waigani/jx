@@ -11,6 +11,7 @@ import (
 )
 
 func TestChangelogMarkdown(t *testing.T) {
+	t.Parallel()
 	releaseSpec := &v1.ReleaseSpec{
 		Commits: []v1.CommitSummary{
 			{
