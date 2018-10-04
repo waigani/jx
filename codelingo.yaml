@@ -1,0 +1,4 @@
+tenets:
+  - import: codelingo/jenkinsx/parallel-in-tests
+  - import: codelingo/jenkinsx/test-package-name
+  - import: codelingo/jenkinsx/tparallel
